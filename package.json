@@ -1,0 +1,32 @@
+{
+  "name": "champignon",
+  "version": "0.0.1",
+  "description": "Champignon - the best way to start with smart contracts!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install -g && champ"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distributed-apps/champignon.git"
+  },
+  "keywords": [
+    "ethereum",
+    "champignon",
+    "smart",
+    "contracts",
+    "bitcoin",
+    "blockchain",
+    "ledger"
+  ],
+  "author": "Johannes Bertens",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/distributed-apps/champignon/issues"
+  },
+  "homepage": "https://github.com/distributed-apps/champignon#readme",
+  "bin": {
+    "champ": "./index.js"
+  }
+}
